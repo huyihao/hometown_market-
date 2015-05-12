@@ -1,0 +1,97 @@
+/* 定义辅助CSS来美化头部 */
+	body{
+	  font-family: 'microsoft yahei',Arial,sans-serif;
+	  background:#eeeeee;
+	}
+
+	.header{
+	  padding-top:20px;
+	  padding-bottom:20px;
+	  background:url(../Img/newbg.gif);
+	  margin-top:20px;
+	  border:1px solid;
+	  border-radius:10px;
+	  -moz-border-radius:10px;
+	}
+
+	
+	.header h1{
+	  margin:0;
+	}
+
+	
+
+	/* 定义辅助CSS来美化主体 */
+
+	.cvbody{
+	  padding-top: 50px; 
+	}
+
+	.cbox{
+	  margin-bottom: 30px;
+	  color: #FFF;
+	  padding: 50px;
+	}
+
+	/* 定义cbox颜色 */
+	.green{
+	  background: #2ecc71;
+	}
+
+	.orange{
+	  background: orange;
+	  border-radius:10px;
+	  -moz-border-radius:10px;
+	}
+
+	.red{
+	  background: #a22626;
+	  -moz-border-radius-topleft:10px;
+	  -moz-border-radius-topright:10px;
+	  -webkit-border-top-left-radius:10px;
+	  -webkit-border-top-right-radius:10px;
+	}
+
+	.bbox{
+	  border: 1px solid #DFDFDF;
+	  border-radius: 5px;
+	  margin-bottom:30px;
+	  padding: 50px;
+	}
+
+	.right-margin{
+		margin-right:1%;
+	}
+	.bottom-margin{
+		margin-bottom:5%;
+	}
+	
+	.footer{
+	  margin: 30px 0 30px;
+	  padding: 50px;
+	  background: #CCC;
+	  color: #FFF;
+	  border-radius:10px;
+	  -moz-border-radius:10px;
+	}
+
+
+
+	@media screen and(min-width:990px) {
+		.lihidden{
+			display:none;
+		}
+	}
+	@media screen and (max-width: 990px) { 
+	    .right-margin{
+	    	margin-right: -2%;
+	    }
+	    .hidden-panel{
+	    	display: none;
+	    }
+	}
+    @media screen and (max-width: 640px){
+
+    }
+     
+}

@@ -1,0 +1,116 @@
+[ 2015-05-12T12:05:50+08:00 ] ::1 /hometownMarket/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001510s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001714s ]
+SQL: SHOW COLUMNS FROM `tt_secondgoods_title` [ RunTime:0.0155s ]
+SQL: SELECT * FROM `tt_secondgoods_title` WHERE ( secondgoods_tradetype='0' ) ORDER BY secondgoods_postdate DESC  [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tt_secondgoods_title` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tt_secondgoods_title` WHERE ( secondgoods_tradetype='1' ) ORDER BY secondgoods_postdate DESC  [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tt_secondgoods_title` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tt_secondgoods_title` WHERE ( secondgoods_tradetype='0' ) ORDER BY secondgoods_postdate DESC LIMIT 20   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tt_secondgoods_title` WHERE ( secondgoods_tradetype='1' ) ORDER BY secondgoods_postdate DESC LIMIT 20   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `tt_notice_all` [ RunTime:0.0087s ]
+SQL: SELECT * FROM `tt_notice_all` ORDER BY notice_noticedate DESC  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000172s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000274s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026582s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026713s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001077s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001171s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001520s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001614s ]
+
+[ 2015-05-12T12:05:53+08:00 ] ::1 /hometownMarket/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000397s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000525s ]
+SQL: SHOW COLUMNS FROM `tt_secondgoods_title` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `tt_secondgoods_title` WHERE ( secondgoods_tradetype='0' ) ORDER BY secondgoods_postdate DESC  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tt_secondgoods_title` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tt_secondgoods_title` WHERE ( secondgoods_tradetype='1' ) ORDER BY secondgoods_postdate DESC  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tt_secondgoods_title` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tt_secondgoods_title` WHERE ( secondgoods_tradetype='0' ) ORDER BY secondgoods_postdate DESC LIMIT 20   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tt_secondgoods_title` WHERE ( secondgoods_tradetype='1' ) ORDER BY secondgoods_postdate DESC LIMIT 20   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tt_notice_all` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `tt_notice_all` ORDER BY notice_noticedate DESC  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000130s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000200s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012711s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012783s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000232s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000275s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000579s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000634s ]
+
+[ 2015-05-12T12:07:45+08:00 ] ::1 /hometownMarket/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000596s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000635s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000697s ]
+SQL: SHOW COLUMNS FROM `tt_secondgoods_title` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `tt_secondgoods_title` WHERE ( secondgoods_tradetype='0' ) ORDER BY secondgoods_postdate DESC  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tt_secondgoods_title` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tt_secondgoods_title` WHERE ( secondgoods_tradetype='1' ) ORDER BY secondgoods_postdate DESC  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tt_secondgoods_title` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tt_secondgoods_title` WHERE ( secondgoods_tradetype='0' ) ORDER BY secondgoods_postdate DESC LIMIT 20   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tt_secondgoods_title` WHERE ( secondgoods_tradetype='1' ) ORDER BY secondgoods_postdate DESC LIMIT 20   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tt_notice_all` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `tt_notice_all` ORDER BY notice_noticedate DESC  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000163s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013305s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013378s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000346s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000388s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000577s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000623s ]
+
+[ 2015-05-12T12:08:54+08:00 ] ::1 /hometownMarket/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000493s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000709s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000781s ]
+SQL: SHOW COLUMNS FROM `tt_secondgoods_title` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `tt_secondgoods_title` WHERE ( secondgoods_tradetype='0' ) ORDER BY secondgoods_postdate DESC  [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tt_secondgoods_title` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tt_secondgoods_title` WHERE ( secondgoods_tradetype='1' ) ORDER BY secondgoods_postdate DESC  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tt_secondgoods_title` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tt_secondgoods_title` WHERE ( secondgoods_tradetype='0' ) ORDER BY secondgoods_postdate DESC LIMIT 20   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tt_secondgoods_title` WHERE ( secondgoods_tradetype='1' ) ORDER BY secondgoods_postdate DESC LIMIT 20   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tt_notice_all` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `tt_notice_all` ORDER BY notice_noticedate DESC  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000110s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000183s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014826s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014922s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000493s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000555s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000854s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000926s ]
+

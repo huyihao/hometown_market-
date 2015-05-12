@@ -1,0 +1,107 @@
+<extend name="Public:base" />
+ <block name="leftcolumn">
+		  	<div class="col-lg-9 col-md-9 col-xs-12">
+			      	<div class="row right-margin">
+			        <div id="myCarousel" class="carousel slide bottom-margin">
+			     			<!-- 轮播（Carousel）指标 -->
+			               <ol class="carousel-indicators">
+			                  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+			                  <li data-target="#myCarousel" data-slide-to="1"></li>
+			                  <li data-target="#myCarousel" data-slide-to="2"></li>
+			               </ol>   
+					     	<!-- 轮播（Carousel）项目 -->
+					        <div class="carousel-inner">
+					            <div class="item active">
+					               <img src="__IMG__/sunset.jpg" alt="First slide">
+					            </div>
+					            <div class="item">
+					               <img src="__IMG__/subway.jpg" alt="Second slide">
+					            </div>
+					            <div class="item">
+					               <img src="__IMG__/wood.jpg" alt="Third slide">
+					            </div>
+					      	</div>
+					     		<!-- 轮播（Carousel）导航 -->
+					           <a class="carousel-control left" href="#myCarousel" 
+					              data-slide="prev">&lsaquo;</a>
+					           <a class="carousel-control right" href="#myCarousel" 
+					              data-slide="next">&rsaquo;</a>
+			    	</div>
+			    	<div class="">
+			          <ul class="nav nav-tabs nav-justified" id="myTab">
+			              <li role="presentation" class="active"><a href="#sales">出售</a></li>
+			              <li role="presentation"><a href="#purchase">收购</a></li>
+			              <li role="presentation" class="lihidden"><a href="#menu">目录</a></li>
+			          </ul>
+			        <div class="tab-content">
+			        	<div class="tab-pane active" id="sales">
+				          	<table class="table  table-hover error">
+				          		<thead>
+				          			<th>商品名称</th>
+				          			<th>交易状态</th>
+				          			<th>发布时间</th>
+				          			<th>查看数</th>
+				          		</thead>
+				          		<foreach name="sales_goods_list.goods" item="ul">
+									<tr>
+										<td>{$ul.secondgoods_name}</td>
+										<td>{$ul.secondgoods_efficiency}</td>
+										<td>{$ul.secondgoods_postdate|date="Y-m-d H:i:s",###}</td>
+										<td>{$ul.secondgoods_views}</td>
+									</tr>
+								</foreach>
+				          	</table>
+			          	</div>
+			          	<div class="tab-pane" id="purchase">
+				          	<table class="table  table-hover error">
+					          		<thead>
+					          			<th>商品名称</th>
+					          			<th>交易状态</th>
+					          			<th>发布时间</th>
+					          			<th>查看数</th>
+					          		</thead>
+					          		<foreach name="purchase_goods_list.goods" item="ul">
+										<tr>
+											<td>{$ul.secondgoods_name}</td>
+											<td>{$ul.secondgoods_efficiency}</td>
+											<td>{$ul.secondgoods_postdate|date="Y-m-d H:i:s",###}</td>
+											<td>{$ul.secondgoods_views}</td>
+										</tr>
+									</foreach>
+					          	</table>
+			          	</div>
+			          	<div class="tab-pane" id="menu">dfdsf</div>
+			          </div>
+			      	</div>
+			      
+			    </div>
+		  </div>
+</block>		
+
+<block name="rightcolumn">
+		   <div class="col-lg-3 col-md-3 col-xs-12">
+		   <div class="row">
+		       	<div class="panel panel-default hidden-panel bottom-margin">
+		          <div class="panel-heading"><h4>公告栏</h4></div>
+		           <div class="panel-body">
+		           	<foreach name="notice_list.notice" item="ul">
+						<p>{$ul.notice_title}</p>
+					</foreach>
+		           </div>
+		        </div>
+		        <div class="bbox">
+		          <h4>市场目录</h4>
+		          <p></p>
+		        </div>
+		        <div class="bbox">
+		          <h4>站内链接</h4>
+		          <p>
+		            <span class="glyphicon glyphicon-tree-deciduous"></span> 广告一
+		            <p><span class="glyphicon glyphicon-plane"></span> 广告二</p>
+		            <p><span class="glyphicon glyphicon-cutlery"></span> 广告三</p>
+		            <p><span class="glyphicon glyphicon-music"></span> 广告四</p>
+		          </p>
+		        </div>
+		    </div>
+		    </div>
+</block>  
