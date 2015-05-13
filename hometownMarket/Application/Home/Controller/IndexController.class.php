@@ -21,4 +21,8 @@ class IndexController extends Controller {
         $this->assign('notice_list',$notice_list);
         $this->display();
     }
+    
+    public function register(){
+       $this->display();
+    }
 }

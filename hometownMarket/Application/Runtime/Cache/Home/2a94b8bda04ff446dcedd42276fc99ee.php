@@ -33,14 +33,44 @@
 	      <div class="nav-collapse">
 	      	<ul > 
 	      	    <li class="current"><a href="#">首页</a></li> 
+	      	    <li data-toggle="modal" data-target="#logModal"><a href="#"> 注册/登陆</a></li>
 	      	    <li><a href="#">发布商品</a></li> 
 	      	    <li><a href="#">搜索商品</a></li> 
 	      	    <li><a href="#">红满堂社区</a></li> 
-	      	    <li><a href="#">使用帮助</a></li> 
-	      	    <li><a href="#">用户必看</a></li>
+	      	    <li><a href="#">帮助/必看</a></li>
 	      	</ul> 
 	      </div>
 	    </div>
+	    <!-- 登陆弹出框 -->
+            <div class="modal fade" id="logModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">登陆框</h4>
+                  </div>
+                  <div class="modal-body">
+                    <div class="form-group">
+                            <label for="username">用户名</label>
+                            <input name="username" type="text" class="form-control" id="exampleInputUser" placeholder
+                              ="请输入您的用户名" >
+                     </div>
+                     <div class="form-group">
+                          <label for="password">密码</label>
+                          <input name="num" type="password" class="form-control" id="exampleInputPasswd" placeholder
+                            ="请输入您的密码" >
+                     </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+                    <button type="button" class="btn btn-primary" href="#">登陆</button>
+                    <a href="<?php echo U('Home/Index/register');?>"><button type="button" class="btn btn-success"  >注册</button></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--弹出框结束-->
+           
 	    
 		<!-- 定义二手市场主体部分 //-->
 		
@@ -181,5 +211,6 @@
     	  $(this).tab('show')
     	 })
 </script>
+
 </body>
 </html>
