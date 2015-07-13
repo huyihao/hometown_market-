@@ -1,0 +1,89 @@
+<extend name="Public:base" />
+<block name="leftcolumn">
+		<div class="col-lg-9 col-md-9 col-sm-12">
+	         <div class="panel panel-default">
+	         
+					  <div class="panel-heading">
+					    <h2 class="panel-title">请选择商品类型</h2>
+					  </div>
+				  <div class="panel-body">
+				    <div class="panel-group" id="accordion2">
+		            
+		            <foreach name="cate[0]" item="ul">
+		                <div class="panel panel-default">
+		                    <div id="collapse1" class="panel-collapse collapse" style="height: 0px;">
+		                        <div  class="panel-body">
+		                            <ul class="nav nav-pills nav-stacked">
+		                            	<foreach name="cate[1]" item="vo1">
+		                                <li><a href="{:U('Goods/addGoods',array('secondgoods_class'=>$vo1['cate_class'],'secondgoods_name'=>$vo1['cate_name']))}">{$vo1.cate_name}</a></li>
+		                                </foreach>
+		                            </ul>
+		                        </div>
+		                    </div>
+		                    <div id="collapse2" class="panel-collapse collapse" style="height: 0px;">
+		                        <div  class="panel-body">
+		                            <ul class="nav nav-pills nav-stacked">
+		                            	<foreach name="cate[2]" item="vo2">
+		                                <li><a href="{:U('Goods/addGoods',array('secondgoods_class'=>$vo2['cate_class'],'secondgoods_name'=>$vo2['cate_name']))}">{$vo2.cate_name}</a></li>
+		                                </foreach>
+		                            </ul>
+		                        </div>
+		                    </div>
+		                    <div id="collapse3" class="panel-collapse collapse" style="height: 0px;">
+		                        <div  class="panel-body">
+		                            <ul class="nav nav-pills nav-stacked">
+		                            	<foreach name="cate[3]" item="vo3">
+		                                <li><a href="{:U('Goods/addGoods',array('secondgoods_class'=>$vo3['cate_class'],'secondgoods_name'=>$vo3['cate_name']))}">{$vo3.cate_name}</a></li>
+		                                </foreach>
+		                            </ul>
+		                        </div>
+		                    </div>
+		                    <div id="collapse4" class="panel-collapse collapse" style="height: 0px;">
+		                        <div  class="panel-body">
+		                            <ul class="nav nav-pills nav-stacked">
+		                            	<foreach name="cate[4]" item="vo4">
+		                                <li><a href="{:U('Goods/addGoods',array('secondgoods_class'=>$vo4['cate_class'],'secondgoods_name'=>$vo4['cate_name']))}">{$vo4.cate_name}</a></li>
+		                                </foreach>
+		                            </ul>
+		                        </div>
+		                    </div>
+		                    <div id="collapse5" class="panel-collapse collapse" style="height: 0px;">
+		                        <div  class="panel-body">
+		                            <ul class="nav nav-pills nav-stacked">
+		                            	<foreach name="cate[5]" item="vo5">
+		                                <li><a href="{:U('Goods/addGoods',array('secondgoods_class'=>$vo5['cate_class'],'secondgoods_name'=>$vo5['cate_name']))}">{$vo5.cate_name}</a></li>
+		                                </foreach>
+		                            </ul>
+		                        </div>
+		                    </div>
+		                    <div id="collapse6" class="panel-collapse collapse" style="height: 0px;">
+		                        <div  class="panel-body">
+		                            <ul class="nav nav-pills nav-stacked">
+		                            	<foreach name="cate[6]" item="vo6">
+		                                <li><a href="{:U('Goods/addGoods',array('secondgoods_class'=>$vo6['cate_class'],'secondgoods_name'=>$vo6['cate_name']))}">{$vo6.cate_name}</a></li>
+		                                </foreach>
+		                            </ul>
+		                        </div>
+		                    </div>
+		                    <div id="collapse7" class="panel-collapse collapse" style="height: 0px;">
+		                        <div  class="panel-body">
+		                            <ul class="nav nav-pills nav-stacked">
+		                            	<foreach name="cate[7]" item="vo7">
+		                                <li><a href="{:U('Goods/addGoods',array('secondgoods_class'=>$vo7['cate_class'],'secondgoods_name'=>$vo7['cate_name']))}">{$vo7.cate_name}</a></li>
+		                                </foreach>
+		                            </ul>
+		                        </div>
+		                    </div>
+		                    <div  class="panel-heading" data-toggle="collapse"
+		                        data-parent="#accordion2" href="#collapse{$ul.cate_class}">
+		                        {$ul.cate_name}
+		                    </div>
+		               </div>
+		              </foreach>
+		            </div>
+				  </div>
+			</div>
+		</div>
+	    
+</block>
+

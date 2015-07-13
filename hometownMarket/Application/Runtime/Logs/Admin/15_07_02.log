@@ -1,0 +1,637 @@
+[ 2015-07-02T14:36:22+08:00 ] ::1 /hometownMarket/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000450s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000691s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000752s ]
+SQL: SHOW COLUMNS FROM `tt_category` [ RunTime:0.0048s ]
+SQL: SELECT `cate_class`,`cate_name`,`cate_pid` FROM `tt_category`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000165s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000225s ]
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 139 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 139 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 139 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 139 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 146 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 153 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 160 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 167 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 174 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 174 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 181 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 139 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 139 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 139 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 139 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 146 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 153 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 160 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 167 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 174 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 174 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 181 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 139 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 139 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 139 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 139 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 146 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 153 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 160 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 167 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 174 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 174 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 181 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 139 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 139 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 139 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 139 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 146 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 153 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 160 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 167 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 174 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 174 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 181 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 139 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 139 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 139 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 139 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 146 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 153 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 160 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 167 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 174 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 174 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 181 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 139 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 139 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 139 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 139 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 146 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 153 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 160 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 167 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 174 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 174 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 181 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 139 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 139 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 139 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 139 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 146 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 153 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 160 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 167 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 174 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 174 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 181 行.
+NOTIC: [8] Undefined index: secondgoods_id E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 270 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029313s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000521s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000566s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000782s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000854s ]
+
+[ 2015-07-02T14:36:23+08:00 ] ::1 /hometownMarket/index.php/Admin/Index/verify_c.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000518s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000573s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000789s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000886s ]
+
+[ 2015-07-02T14:36:47+08:00 ] ::1 /hometownMarket/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000505s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000637s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000693s ]
+SQL: SHOW COLUMNS FROM `tt_admins` [ RunTime:0.0083s ]
+NOTIC: [8] Use of undefined constant admins_name - assumed 'admins_name' E:\xampp\htdocs\hometownMarket\Application\Admin\Model\AdminsModel.class.php 第 16 行.
+NOTIC: [8] Use of undefined constant admins_password - assumed 'admins_password' E:\xampp\htdocs\hometownMarket\Application\Admin\Model\AdminsModel.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant verify - assumed 'verify' E:\xampp\htdocs\hometownMarket\Application\Admin\Model\AdminsModel.class.php 第 31 行.
+NOTIC: [8] Use of undefined constant verify - assumed 'verify' E:\xampp\htdocs\hometownMarket\Application\Admin\Model\AdminsModel.class.php 第 38 行.
+NOTIC: [8] Use of undefined constant admins_name - assumed 'admins_name' E:\xampp\htdocs\hometownMarket\Application\Admin\Model\AdminsModel.class.php 第 46 行.
+NOTIC: [8] Use of undefined constant admins_password - assumed 'admins_password' E:\xampp\htdocs\hometownMarket\Application\Admin\Model\AdminsModel.class.php 第 46 行.
+SQL: SELECT * FROM `tt_admins` WHERE ( admins_name='HMT' AND admins_password='HMT' ) LIMIT 1   [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `tt_logging` [ RunTime:0.0714s ]
+NOTIC: [8] Use of undefined constant logging_time - assumed 'logging_time' E:\xampp\htdocs\hometownMarket\Application\Admin\Model\LoggingModel.class.php 第 12 行.
+NOTIC: [8] Use of undefined constant logging_ip - assumed 'logging_ip' E:\xampp\htdocs\hometownMarket\Application\Admin\Model\LoggingModel.class.php 第 13 行.
+NOTIC: [8] Use of undefined constant logging_content - assumed 'logging_content' E:\xampp\htdocs\hometownMarket\Application\Admin\Model\LoggingModel.class.php 第 15 行.
+NOTIC: [8] Use of undefined constant logging_ip - assumed 'logging_ip' E:\xampp\htdocs\hometownMarket\Application\Admin\Model\LoggingModel.class.php 第 15 行.
+SQL: INSERT INTO `tt_logging` (`logging_time`,`logging_ip`,`logging_content`) VALUES ('1435819007','0','ip地址为::1的用户登陆后台') [ RunTime:0.0209s ]
+
+[ 2015-07-02T14:36:48+08:00 ] ::1 /hometownMarket/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000452s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000988s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001296s ]
+SQL: SHOW COLUMNS FROM `tt_admins` [ RunTime:0.0040s ]
+NOTIC: [8] Use of undefined constant admins_name - assumed 'admins_name' E:\xampp\htdocs\hometownMarket\Application\Admin\Model\AdminsModel.class.php 第 16 行.
+NOTIC: [8] Use of undefined constant admins_password - assumed 'admins_password' E:\xampp\htdocs\hometownMarket\Application\Admin\Model\AdminsModel.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant verify - assumed 'verify' E:\xampp\htdocs\hometownMarket\Application\Admin\Model\AdminsModel.class.php 第 31 行.
+NOTIC: [8] Use of undefined constant verify - assumed 'verify' E:\xampp\htdocs\hometownMarket\Application\Admin\Model\AdminsModel.class.php 第 38 行.
+
+[ 2015-07-02T14:36:49+08:00 ] ::1 /hometownMarket/index.php/Admin/Index/frontpage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001068s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001747s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001918s ]
+SQL: SHOW COLUMNS FROM `tt_category` [ RunTime:0.0064s ]
+SQL: SELECT `cate_class`,`cate_name`,`cate_pid` FROM `tt_category`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `tt_secondgoods` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `tt_secondgoods` WHERE ( secondgoods_tradetype='0' ) ORDER BY secondgoods_postdate DESC LIMIT 0,10   [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tt_secondgoods` WHERE ( secondgoods_tradetype='0' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `tt_category` [ RunTime:0.0065s ]
+SQL: SELECT `cate_name` FROM `tt_category` WHERE ( cate_class='9' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `cate_name` FROM `tt_category` WHERE ( cate_class='13' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `cate_name` FROM `tt_category` WHERE ( cate_class='8' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `cate_name` FROM `tt_category` WHERE ( cate_class='11' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `cate_name` FROM `tt_category` WHERE ( cate_class='16' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `cate_name` FROM `tt_category` WHERE ( cate_class='14' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `cate_name` FROM `tt_category` WHERE ( cate_class='13' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `cate_name` FROM `tt_category` WHERE ( cate_class='13' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `cate_name` FROM `tt_category` WHERE ( cate_class='8' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `cate_name` FROM `tt_category` WHERE ( cate_class='15' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tt_secondgoods` WHERE ( secondgoods_tradetype='1' ) ORDER BY secondgoods_postdate DESC LIMIT 0,10   [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tt_secondgoods` WHERE ( secondgoods_tradetype='1' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `cate_name` FROM `tt_category` WHERE ( cate_class='17' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `cate_name` FROM `tt_category` WHERE ( cate_class='16' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `cate_name` FROM `tt_category` WHERE ( cate_class='9' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `cate_name` FROM `tt_category` WHERE ( cate_class='13' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `cate_name` FROM `tt_category` WHERE ( cate_class='15' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tt_category` WHERE ( cate_pid <>'0' )  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000346s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000456s ]
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 180 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 180 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 180 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 180 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 187 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 194 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 201 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 208 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 215 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 215 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 222 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 180 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 180 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 180 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 180 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 187 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 194 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 201 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 208 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 215 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 215 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 222 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 180 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 180 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 180 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 180 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 187 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 194 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 201 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 208 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 215 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 215 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 222 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 180 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 180 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 180 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 180 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 187 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 194 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 201 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 208 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 215 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 215 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 222 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 180 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 180 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 180 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 180 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 187 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 194 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 201 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 208 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 215 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 215 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 222 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 180 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 180 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 180 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 180 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 187 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 194 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 201 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 208 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 215 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 215 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 222 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 180 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 180 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 180 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 180 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 187 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 194 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 201 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 208 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 215 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 215 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 222 行.
+NOTIC: [8] Undefined index: secondgoods_id E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 311 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053828s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053951s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000803s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000893s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002419s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002576s ]
+
+[ 2015-07-02T14:37:10+08:00 ] ::1 /hometownMarket/index.php/Admin/Goods/setCategory.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000478s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000497s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000551s ]
+SQL: SHOW COLUMNS FROM `tt_secondgoods` [ RunTime:0.0042s ]
+SQL: UPDATE `tt_secondgoods` SET `secondgoods_class`='10' WHERE ( secondgoods_id='58' ) [ RunTime:0.0005s ]
+
+[ 2015-07-02T14:37:12+08:00 ] ::1 /hometownMarket/index.php/Admin/Index/frontpage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000380s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000450s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000501s ]
+SQL: SHOW COLUMNS FROM `tt_category` [ RunTime:0.0036s ]
+SQL: SELECT `cate_class`,`cate_name`,`cate_pid` FROM `tt_category`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tt_secondgoods` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `tt_secondgoods` WHERE ( secondgoods_tradetype='0' ) ORDER BY secondgoods_postdate DESC LIMIT 0,10   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tt_secondgoods` WHERE ( secondgoods_tradetype='0' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tt_category` [ RunTime:0.0035s ]
+SQL: SELECT `cate_name` FROM `tt_category` WHERE ( cate_class='10' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `cate_name` FROM `tt_category` WHERE ( cate_class='13' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `cate_name` FROM `tt_category` WHERE ( cate_class='8' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `cate_name` FROM `tt_category` WHERE ( cate_class='11' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `cate_name` FROM `tt_category` WHERE ( cate_class='16' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `cate_name` FROM `tt_category` WHERE ( cate_class='14' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `cate_name` FROM `tt_category` WHERE ( cate_class='13' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `cate_name` FROM `tt_category` WHERE ( cate_class='13' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `cate_name` FROM `tt_category` WHERE ( cate_class='8' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `cate_name` FROM `tt_category` WHERE ( cate_class='15' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tt_secondgoods` WHERE ( secondgoods_tradetype='1' ) ORDER BY secondgoods_postdate DESC LIMIT 0,10   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tt_secondgoods` WHERE ( secondgoods_tradetype='1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `cate_name` FROM `tt_category` WHERE ( cate_class='17' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `cate_name` FROM `tt_category` WHERE ( cate_class='16' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `cate_name` FROM `tt_category` WHERE ( cate_class='9' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `cate_name` FROM `tt_category` WHERE ( cate_class='13' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `cate_name` FROM `tt_category` WHERE ( cate_class='15' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tt_category` WHERE ( cate_pid <>'0' )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000188s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000249s ]
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 180 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 180 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 180 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 180 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 187 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 194 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 201 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 208 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 215 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 215 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 222 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 180 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 180 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 180 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 180 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 187 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 194 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 201 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 208 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 215 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 215 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 222 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 180 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 180 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 180 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 180 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 187 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 194 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 201 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 208 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 215 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 215 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 222 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 180 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 180 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 180 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 180 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 187 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 194 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 201 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 208 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 215 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 215 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 222 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 180 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 180 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 180 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 180 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 187 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 194 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 201 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 208 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 215 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 215 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 222 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 180 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 180 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 180 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 180 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 187 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 194 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 201 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 208 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 215 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 215 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 222 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 180 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 180 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 180 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 180 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 187 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 194 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 201 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 208 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 215 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 215 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 222 行.
+NOTIC: [8] Undefined index: secondgoods_id E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 311 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028129s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028196s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000419s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000462s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001030s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001104s ]
+
+[ 2015-07-02T14:37:20+08:00 ] ::1 /hometownMarket/index.php/Admin/User/notChecked.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000683s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001130s ]
+SQL: SHOW COLUMNS FROM `tt_members` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tt_members` WHERE ( members_visitset='1' ) ORDER BY members_joindate DESC LIMIT 0,10   [ RunTime:0.0014s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tt_members` WHERE ( members_visitset='1' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000196s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013646s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013851s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000786s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000869s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001689s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001783s ]
+
+[ 2015-07-02T14:37:45+08:00 ] ::1 /hometownMarket/index.php/Admin/User/ForbiddenUser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000391s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000538s ]
+SQL: SHOW COLUMNS FROM `tt_members` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tt_members` WHERE ( members_visitset='3' ) ORDER BY members_joindate DESC LIMIT 0,10   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tt_members` WHERE ( members_visitset='3' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000184s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010427s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010502s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000242s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000498s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000555s ]
+
+[ 2015-07-02T14:37:49+08:00 ] ::1 /hometownMarket/index.php/Admin/User/failedChecked.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000510s ]
+SQL: SHOW COLUMNS FROM `tt_members` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `tt_members` WHERE ( members_visitset='2' ) ORDER BY members_joindate DESC LIMIT 0,10   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tt_members` WHERE ( members_visitset='2' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000130s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000216s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009879s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009957s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000266s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000754s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000830s ]
+
+[ 2015-07-02T14:37:52+08:00 ] ::1 /hometownMarket/index.php/Admin/User/NotChecked.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000453s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000570s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000644s ]
+SQL: SHOW COLUMNS FROM `tt_members` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `tt_members` WHERE ( members_visitset='1' ) ORDER BY members_joindate DESC LIMIT 0,10   [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tt_members` WHERE ( members_visitset='1' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000168s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012232s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012300s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000284s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001433s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001535s ]
+
+[ 2015-07-02T14:37:55+08:00 ] ::1 /hometownMarket/index.php/Admin/User/checked.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000362s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000509s ]
+SQL: SHOW COLUMNS FROM `tt_members` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `tt_members` WHERE ( members_visitset='0' ) ORDER BY members_joindate DESC LIMIT 0,10   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tt_members` WHERE ( members_visitset='0' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010170s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010233s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000245s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000554s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000613s ]
+
+[ 2015-07-02T14:38:28+08:00 ] ::1 /hometownMarket/index.php/Admin/Index/frontpage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000411s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000697s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000769s ]
+SQL: SHOW COLUMNS FROM `tt_category` [ RunTime:0.0037s ]
+SQL: SELECT `cate_class`,`cate_name`,`cate_pid` FROM `tt_category`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tt_secondgoods` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `tt_secondgoods` WHERE ( secondgoods_tradetype='0' ) ORDER BY secondgoods_postdate DESC LIMIT 0,10   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tt_secondgoods` WHERE ( secondgoods_tradetype='0' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tt_category` [ RunTime:0.0038s ]
+SQL: SELECT `cate_name` FROM `tt_category` WHERE ( cate_class='10' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `cate_name` FROM `tt_category` WHERE ( cate_class='13' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `cate_name` FROM `tt_category` WHERE ( cate_class='8' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `cate_name` FROM `tt_category` WHERE ( cate_class='11' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `cate_name` FROM `tt_category` WHERE ( cate_class='16' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `cate_name` FROM `tt_category` WHERE ( cate_class='14' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `cate_name` FROM `tt_category` WHERE ( cate_class='13' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `cate_name` FROM `tt_category` WHERE ( cate_class='13' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `cate_name` FROM `tt_category` WHERE ( cate_class='8' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `cate_name` FROM `tt_category` WHERE ( cate_class='15' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tt_secondgoods` WHERE ( secondgoods_tradetype='1' ) ORDER BY secondgoods_postdate DESC LIMIT 0,10   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tt_secondgoods` WHERE ( secondgoods_tradetype='1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `cate_name` FROM `tt_category` WHERE ( cate_class='17' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `cate_name` FROM `tt_category` WHERE ( cate_class='16' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `cate_name` FROM `tt_category` WHERE ( cate_class='9' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `cate_name` FROM `tt_category` WHERE ( cate_class='13' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `cate_name` FROM `tt_category` WHERE ( cate_class='15' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tt_category` WHERE ( cate_pid <>'0' )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000189s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000250s ]
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 180 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 180 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 180 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 180 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 187 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 194 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 201 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 208 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 215 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 215 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 222 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 180 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 180 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 180 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 180 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 187 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 194 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 201 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 208 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 215 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 215 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 222 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 180 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 180 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 180 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 180 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 187 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 194 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 201 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 208 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 215 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 215 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 222 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 180 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 180 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 180 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 180 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 187 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 194 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 201 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 208 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 215 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 215 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 222 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 180 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 180 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 180 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 180 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 187 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 194 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 201 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 208 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 215 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 215 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 222 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 180 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 180 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 180 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 180 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 187 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 194 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 201 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 208 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 215 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 215 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 222 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 180 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 180 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 180 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 180 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 187 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 194 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 201 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 208 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 215 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 215 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 222 行.
+NOTIC: [8] Undefined index: secondgoods_id E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 311 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028743s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028802s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000487s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000531s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000745s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000847s ]
+

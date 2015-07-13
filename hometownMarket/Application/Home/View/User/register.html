@@ -1,0 +1,134 @@
+<extend name="Public:base" />
+<block name="Header">
+<!-- 定义主页的头部 //-->
+	    <div class="container">
+	      <div class="row header">
+	      	<div class="col-lg-2 col-md-2 col-xs-12">
+	         <a href=""><img src="__IMG__/marketlogo.gif"/></a>
+	        </div>
+	      </div>
+	    </div>
+ 		<!--定义导航栏-->
+	    <div class="container">
+	      <div class="nav-collapse">
+	      	<ul > 
+	      	    <li class="current"><a href="#">首页</a></li> 
+	      	    <li data-toggle="modal" data-target="#logModal"><a href="#"> 注册/登陆</a></li>
+	      	    <li><a href="#">发布商品</a></li> 
+	      	    <li><a href="#">搜索商品</a></li> 
+	      	    <li><a href="#">红满堂社区</a></li> 
+	      	    <li><a href="#">帮助/必看</a></li>
+	      	</ul> 
+	      </div>
+	    </div>
+ <!-- 注册弹出框 -->
+            
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">注册框</h4>
+                  </div>
+                  <form id="register_form" class="modal-body" action="{:U('Home/User/register')}" method="post">
+                 
+                    <div class="form-group">
+                            <label for="username">用户名</label>
+                            <input id="username" name="username" type="text" class="form-control" id="exampleInputUser" placeholder
+                              ="请输入您的用户名" >
+                     </div>
+                     <div class="form-group">
+                           <label for="gender">性别</label>
+						      <select name="gender" class="form-control">
+						         <option>靓仔</option>
+						         <option>靓女</option>
+						      </select>
+                     </div>
+                     <div class="form-group">
+                          <label for="password">密码</label>
+                          <input id="password" name="password" type="password" class="form-control" id="exampleInputPasswd" placeholder
+                            ="请输入您的密码" >
+                     </div>
+                     <div class="form-group">
+                          <label for="password">重复密码</label>
+                          <input id="repeatPasswd" name="repeatPasswd" type="password" class="form-control" id="exampleInputPasswd" placeholder
+                            ="请输入您的密码" >
+                     </div>
+                     <div class="form-group">
+                          <label for="realname">真实姓名</label>
+                          <input id="realname" name="realname" type="text" class="form-control" id="exampleInputPasswd" placeholder
+                            ="请输入您的真实姓名" >
+                     </div>
+                     <div class="form-group">
+                          <label for="school">学校名【或目前单位】</label>
+                          <input id="schoolname" name="schoolname" type="text" class="form-control" id="exampleInputPasswd" placeholder
+                            ="请输入您的地址" >
+                     </div>
+                     <div class="form-group">
+                          <label for="IDcard">身份证</label>
+                          <input id="identitycard" name="identitycard" type="text" class="form-control" id="exampleInputPasswd" placeholder
+                            ="请输入您的ID" >
+                     </div>
+                     <div class="form-group">
+                          <label for="No">学号</label>
+                          <input id="studentcard" name="studentcard" type="text" class="form-control" id="exampleInputPasswd" placeholder
+                            ="请提供本人的学号，非学生填写0101010" >
+                     </div>
+                     <div class="form-group">
+                          <label for="address">目前住址【尽量详细】</label>
+                          <input id="address" name="address" type="text" class="form-control" id="exampleInputPasswd" placeholder
+                            ="请准确提供本人所在居住地（精确到门牌号或宿舍号）" >
+                     </div>
+                     <div class="form-group">
+                          <label for="number">手机号码</label>
+                          <input id="number" name="number" type="text" class="form-control" id="exampleInputPasswd" placeholder
+                            ="请准确提供本人的联系方式，以便交易" >
+                     </div>
+                     <div class="form-group">
+                          <label for="qq">QQ号码</label>
+                          <input id="qq" name="qq" type="text" class="form-control" id="exampleInputPasswd" placeholder
+                            ="请准确提供本人的联系方式，以便交易" >
+                     </div>
+                     <div class="form-group">
+                          <label for="email">邮箱</label>
+                          <input id="email" name="email" type="text" class="form-control" id="exampleInputPasswd" placeholder
+                            ="请准确邮箱地址，以便联系与找回密码" >
+                     </div>
+                     <div class="form-group">
+                          <label for="desc">个人描述</label>
+                          <input id="desc" name="desc" type="text" class="form-control" id="exampleInputPasswd" placeholder
+                            ="不能为空" >
+                     </div>
+                     
+                  </form>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+                    <button id="btn" type="button" class="btn btn-success"  href="#">立即加入</button>
+                  </div>
+                </div>
+              </div>
+           
+            <!--弹出框结束-->
+</block>
+<block name="leftcolumn">
+</block>
+<block name="rightcolumn">
+</block>
+<block name="script">
+<script>
+$(function(){
+	$('#btn').click(function(){
+		var params =$('#register_form').serialize();
+		var $action=$('#register_form').attr('action');
+		console.log(params);
+		$.post($action,params,function(data){
+			if(data!=null){
+				if(typeof(data.length)=='undenfined'){
+					alert('hehe');
+				}
+			}
+		});
+		
+	})
+})
+</script>
+</block>

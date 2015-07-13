@@ -1,0 +1,79 @@
+<extend name="Public:base" />
+<block name="leftcolumn">
+		<div class="col-lg-9 col-md-9 col-sm-12">
+	         <div class="panel panel-default">
+	         
+					  <div class="panel-heading">
+					    <h2 class="panel-title">我的发件箱</h2>
+					  </div>
+				  <div class="panel-body">
+				   <table class="table  table-hover error">
+					          		<thead>
+					          			<th>标题</th>
+					          			<th>发送时间</th>
+					          			<th>收件人</th>
+					          			<th>已读状态</th>
+					          		</thead>
+					          		<foreach name="sendlist" item="ul">
+										<tr>
+											<td data-toggle="modal" data-target="#sendModal{$ul['message_id']}" >{$ul.message_title}
+											</td>
+											<!-- 消息弹出框 -->
+								            <div class="modal fade" id="sendModal{$ul['message_id']}" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+								              <div class="modal-dialog">
+								                <div class="modal-content">
+								                  <div class="modal-header">
+								                    <button type="button"  class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+								                    <h4 class="modal-title" id="myModalLabel">消息详情</h4>
+								                  </div>
+								                  <form id="ReceiveMessage_form" class="modal-body" action="{:U('Home/Message/replyMessage')}" method="post">
+								                 	<div id="message_notice"></div>
+								                    <div class="form-group">
+								                            <label for="title">消息标题/继续发送时可更改此标题</label>
+								                            <input name="message_title" type="text" class="form-control" id="message_title" value="{$ul['message_title']}" >
+								                     </div>
+								                     <div class="form-group">
+								                          <label for="receiver">消息接收方</label>
+								                          <input name="message_to_username" type="text" class="form-control" readonly id="message_to_username" value="{$ul['message_to_username']}" >
+								                     </div>
+								                     <div class="form-group">
+								                          <label for="password">消息发送方</label>
+								                          <input name="message_from_username" type="text" class="form-control " readonly  id="message_from_username" value="{$ul['message_from_username']}" >
+								                     </div>
+								                     <div class="form-group">
+			                          					  <label for="desc">消息内容</label>
+			                            				  <label for="desc"><b>{$ul['message_msg']}</b></label>
+			                            			</div>
+			                            			<div class="form-group">
+			                          					  <label for="descReply">消息内容</label>
+			                            				  <textarea id="message_msg" name="message_msg" class="form-control" rows="5" ></textarea>
+			                            			</div>
+								                  
+								                  <div class="modal-footer">
+								                    <button type="button"  class="btn btn-default" data-dismiss="modal">关闭</button>
+								                    <button type="submit"  class="btn btn-primary" >追加回复</button>
+								                  </div>
+								                  </form>
+								                </div>
+								              </div>
+								            </div>
+								           <!--弹出框结束-->
+											<td>{$ul.message_date|date="Y-m-d H:i",###}</td>
+											<td>{$ul['message_to_username']}</td>
+											<td>{$ul.message_typeto}<a href="{:U('Home/Message/deleteSend',array('message_id'=>$ul['message_id']))}"><button type="submit"  class="btn">删除</button></a></td>
+										</tr>
+									</foreach>
+					          	</table>
+							
+				  </div>
+			</div>
+		</div>
+	    
+</block>
+<block name="menu">
+		<div class="bbox">
+		  <div class="panel-heading">
+          </div>
+        </div>
+</div>
+</block>

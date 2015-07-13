@@ -1,0 +1,73 @@
+@CHARSET "UTF-8";
+/* 定义辅助CSS来美化头部 */
+	body{
+	  font-family: 'microsoft yahei',Arial,sans-serif;
+	  background:#eeeeee;
+	}
+
+	.header{
+	  padding-top:20px;
+	  padding-bottom:20px;
+	  background:url(../Img/newbg.gif);
+	  margin-top:20px;
+	  border:1px solid;
+	  border-radius:10px;
+	  -moz-border-radius:10px;
+	}
+
+	
+	.header h1{
+	  margin:0;
+	}
+
+	
+
+	.interval{
+		margin-top:7%;
+	}
+	.userinterval{
+		margin-top:5%;
+	}
+	.right-margin{
+		margin-right:1%;
+	}
+	.bottom-margin{
+		margin-bottom:5%;
+	}
+	
+	.footer{
+	  margin: 30px 0 30px;
+	  padding: 50px;
+	  background: #CCC;
+	  color: #FFF;
+	  border-radius:10px;
+	  -moz-border-radius:10px;
+	}
+	 .foot-text{
+	 	clear:both;
+		width:100%;
+		text-align:center;
+		
+		
+		padding:0 ;
+		font-size:18px;
+		line-height:50px;
+	}
+	@media screen and(min-width:990px) {
+		.lihidden{
+			display:none;
+		}
+	}
+	@media screen and (max-width: 990px) { 
+	    .right-margin{
+	    	margin-right: -2%;
+	    }
+	    .hidden-panel{
+	    	display: none;
+	    }
+	}
+    @media screen and (max-width: 640px){
+
+    }
+     
+}
