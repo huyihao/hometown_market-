@@ -1,0 +1,99 @@
+<extend name="Public:base" />
+<block name="Header">
+		<div class="container-fluid head">
+		<div class="row">
+			<nav class="navbar navbar-inverse" role="navigation">
+				   <div class="navbar-header">
+				      <button type="button" class="navbar-toggle" data-toggle="collapse" 
+				         data-target="#example-navbar-collapse">
+				         <span class="sr-only">切换导航</span>
+				         <span class="icon-bar"></span>
+				         <span class="icon-bar"></span>
+				         <span class="icon-bar"></span>
+				      </button>
+				      <a class="navbar-brand info" href="#"><h2>二手市场后台</h2></a>
+				   </div>
+				   <div class="collapse navbar-collapse" id="example-navbar-collapse">
+				      <ul class="nav navbar-nav">
+				         <li class="active"><a href="#"><button class="btn"> 审核用户</button></a></li>
+				         <li><a href="#"><button class="btn"> 删除商品</button></a></li>
+				         <li class="dropdown">
+				            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+				               	<button class="btn "> 公告</button> <b class="caret"></b>
+				            </a>
+				            <ul class="dropdown-menu">
+				            </ul>
+				         </li>
+				         <li class="dropdown">
+				           <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+				              	<button class="btn"> 广告</button> <b class="caret"></b>
+				            </a> 
+				            <ul class="dropdown-menu">
+				            </ul>
+				         </li>
+				         <li class="dropdown">
+				            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+				               	<button class="btn"> 用户</button> <b class="caret"></b>
+				            </a>
+				            <ul class="dropdown-menu">
+				                <li><a href="{:U('Home/Index/index')}">退出登录</a></li>
+				               <li class="divider"></li>
+				               <li><a href="#">分离的链接</a></li>
+				               <li class="divider"></li>
+				               <li><a href="#">另一个分离的链接</a></li>
+				            </ul>
+				         </li>
+				      </ul>
+				   </div>
+				</nav>
+		</div>
+	</div>
+</block>
+ <block name="leftcolumn">
+		  	<div class="col-lg-9 col-md-9 col-xs-12">
+			      	<div class="row right-margin">
+			         <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                   
+                    <h4 class="modal-title" id="myModalLabel">管理员登陆框</h4>
+                  </div>
+                  <form id="login_form" class="modal-body" action="{:U('Admin/Index/index')}" method="post">
+                 	<div id="notice"></div>
+                    <div class="form-group">
+                            <label for="username">用户名</label>
+                            <input id="admins_name" name="admins_name" type="text" class="form-control" id="exampleInputUser" placeholder
+                              ="请输入您的用户名" >
+                              <div id="usernametip"></div>
+                     </div>
+                      <div class="form-group">
+                          
+                     </div>
+                      <div class="form-group">
+                          <label for="password">密码</label>
+                          <input id="admins_password" name="admins_password" type="password" class="form-control" id="exampleInputPasswd" placeholder
+                            ="请输入您的密码" >
+                            <div id="passwordtip"></div>
+                     </div>
+                     <div class="form-group">
+                          <label for="verify">验证码:刷新本页换验证码</label>
+                          <p class="top15 captcha" id="captcha-container">                    
+							  <img width="50%" class="left15" height="50" alt="验证码" src="{:U('Admin/Index/verify_c',array())}" >  
+							</p> 
+							<br/>
+                          <input id="verify" name="verify" type="text" class="form-control"  placeholder
+                            ="请输入您的验证码" >
+                            <div id="verifytip"></div>
+                     </div>
+                    
+                  </form>
+                  <div class="modal-footer">
+                    <button id="loginbtn" type="button" class="btn btn-info"  href="#">登陆</button>
+                  </div>
+                </div>
+              </div>
+           
+			    </div>
+		  </div>
+</block>		
+

@@ -1,0 +1,30 @@
+[ 2015-07-18T10:28:10+08:00 ] ::1 /hometownMarket/Uploads/2015-06-04/556fb0ee6e1c3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000815s ]
+ERR: 无法加载模块:Uploads
+
+[ 2015-07-18T14:42:32+08:00 ] ::1 /hometownMarket/Uploads/2015-06-04/556fb0ee6e1c3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000672s ]
+ERR: 无法加载模块:Uploads
+
+[ 2015-07-18T22:29:10+08:00 ] ::1 /hometownMarket/Uploads/2015-06-04/556fb0ee6e1c3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000648s ]
+ERR: 无法加载模块:Uploads
+
+[ 2015-07-18T22:31:50+08:00 ] ::1 /hometownMarket/Uploads/2015-06-04/556fb0ee6e1c3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000511s ]
+ERR: 无法加载模块:Uploads
+
+[ 2015-07-18T22:31:53+08:00 ] ::1 /hometownMarket/Uploads/2015-06-04/556fb0ee6e1c3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000389s ]
+ERR: 无法加载模块:Uploads
+

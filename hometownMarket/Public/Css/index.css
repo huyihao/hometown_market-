@@ -74,7 +74,15 @@
 	  border-radius:10px;
 	  -moz-border-radius:10px;
 	}
-
+	.list_notice{ height:100px; overflow:hidden;}
+	.list_notice li{ padding:10px;}
+	.list_notice li.lieven{ background:#F0F2F3;}
+	.list_notice li p{ height:24px; line-height:24px;}
+	.list_notice li p a{ float:left;}
+	.list_notice li p em{ width:80px; font:normal 12px/24px Arial; color:#FF3300; float:right; display:inline-block;}
+	.list_notice li p span{ color:#999; float:right;}
+	.list_notice li p a.btn_lh{ background:#28BD19; height:17px; line-height:17px; color:#fff; padding:0 5px; margin-top:4px; display:inline-block; float:right;}
+	.btn_lh:hover{ color:#fff; text-decoration:none;}
 
 
 	@media screen and(min-width:990px) {

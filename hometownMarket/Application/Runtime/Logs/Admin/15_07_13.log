@@ -1,0 +1,1308 @@
+[ 2015-07-13T22:21:16+08:00 ] ::1 /hometownMarket/index.php/Admin/User/notChecked.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000372s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000511s ]
+NOTIC: [8] Undefined index: admins_id E:\xampp\htdocs\hometownMarket\Application\Admin\Common\Controller\InitController.class.php 第 6 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000666s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000721s ]
+
+[ 2015-07-13T22:21:16+08:00 ] ::1 /hometownMarket/index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000381s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000511s ]
+NOTIC: [8] Undefined index: admins_id E:\xampp\htdocs\hometownMarket\Application\Admin\Common\Controller\InitController.class.php 第 6 行.
+ERR: 非法操作:index
+
+[ 2015-07-13T22:21:25+08:00 ] ::1 /hometownMarket/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000433s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000613s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000667s ]
+SQL: SHOW COLUMNS FROM `tt_category` [ RunTime:0.0043s ]
+SQL: SELECT `cate_class`,`cate_name`,`cate_pid` FROM `tt_category`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000260s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000353s ]
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 139 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 139 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 139 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 139 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 146 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 153 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 160 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 167 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 174 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 174 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 181 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 139 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 139 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 139 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 139 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 146 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 153 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 160 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 167 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 174 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 174 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 181 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 139 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 139 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 139 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 139 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 146 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 153 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 160 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 167 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 174 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 174 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 181 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 139 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 139 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 139 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 139 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 146 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 153 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 160 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 167 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 174 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 174 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 181 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 139 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 139 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 139 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 139 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 146 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 153 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 160 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 167 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 174 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 174 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 181 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 139 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 139 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 139 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 139 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 146 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 153 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 160 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 167 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 174 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 174 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 181 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 139 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 139 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 139 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 139 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 146 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 153 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 160 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 167 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 174 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 174 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 181 行.
+NOTIC: [8] Undefined index: secondgoods_id E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 270 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027287s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027345s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000626s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000682s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001603s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001729s ]
+
+[ 2015-07-13T22:21:25+08:00 ] ::1 /hometownMarket/index.php/Admin/Index/verify_c.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000488s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000545s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001089s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001186s ]
+
+[ 2015-07-13T22:21:34+08:00 ] ::1 /hometownMarket/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000597s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000742s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000830s ]
+SQL: SHOW COLUMNS FROM `tt_admins` [ RunTime:0.0058s ]
+NOTIC: [8] Use of undefined constant admins_name - assumed 'admins_name' E:\xampp\htdocs\hometownMarket\Application\Admin\Model\AdminsModel.class.php 第 16 行.
+NOTIC: [8] Use of undefined constant admins_password - assumed 'admins_password' E:\xampp\htdocs\hometownMarket\Application\Admin\Model\AdminsModel.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant verify - assumed 'verify' E:\xampp\htdocs\hometownMarket\Application\Admin\Model\AdminsModel.class.php 第 31 行.
+NOTIC: [8] Use of undefined constant verify - assumed 'verify' E:\xampp\htdocs\hometownMarket\Application\Admin\Model\AdminsModel.class.php 第 38 行.
+NOTIC: [8] Use of undefined constant admins_name - assumed 'admins_name' E:\xampp\htdocs\hometownMarket\Application\Admin\Model\AdminsModel.class.php 第 46 行.
+NOTIC: [8] Use of undefined constant admins_password - assumed 'admins_password' E:\xampp\htdocs\hometownMarket\Application\Admin\Model\AdminsModel.class.php 第 46 行.
+SQL: SELECT * FROM `tt_admins` WHERE ( admins_name='HMT' AND admins_password='HMT' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `tt_logging` [ RunTime:0.0084s ]
+NOTIC: [8] Use of undefined constant logging_time - assumed 'logging_time' E:\xampp\htdocs\hometownMarket\Application\Admin\Model\LoggingModel.class.php 第 12 行.
+NOTIC: [8] Use of undefined constant logging_ip - assumed 'logging_ip' E:\xampp\htdocs\hometownMarket\Application\Admin\Model\LoggingModel.class.php 第 13 行.
+NOTIC: [8] Use of undefined constant logging_content - assumed 'logging_content' E:\xampp\htdocs\hometownMarket\Application\Admin\Model\LoggingModel.class.php 第 15 行.
+NOTIC: [8] Use of undefined constant logging_ip - assumed 'logging_ip' E:\xampp\htdocs\hometownMarket\Application\Admin\Model\LoggingModel.class.php 第 15 行.
+SQL: INSERT INTO `tt_logging` (`logging_time`,`logging_ip`,`logging_content`) VALUES ('1436797294','0','ip地址为::1的用户登陆后台') [ RunTime:0.0059s ]
+
+[ 2015-07-13T22:21:35+08:00 ] ::1 /hometownMarket/index.php/Admin/Index/frontpage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000738s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001156s ]
+SQL: SHOW COLUMNS FROM `tt_category` [ RunTime:0.0049s ]
+SQL: SELECT `cate_class`,`cate_name`,`cate_pid` FROM `tt_category`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tt_secondgoods` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tt_secondgoods` WHERE ( secondgoods_tradetype='0' ) ORDER BY secondgoods_postdate DESC LIMIT 0,10   [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tt_secondgoods` WHERE ( secondgoods_tradetype='0' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tt_category` [ RunTime:0.0050s ]
+SQL: SELECT `cate_name` FROM `tt_category` WHERE ( cate_class='10' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `cate_name` FROM `tt_category` WHERE ( cate_class='13' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `cate_name` FROM `tt_category` WHERE ( cate_class='8' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `cate_name` FROM `tt_category` WHERE ( cate_class='11' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `cate_name` FROM `tt_category` WHERE ( cate_class='16' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `cate_name` FROM `tt_category` WHERE ( cate_class='14' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `cate_name` FROM `tt_category` WHERE ( cate_class='13' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `cate_name` FROM `tt_category` WHERE ( cate_class='13' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `cate_name` FROM `tt_category` WHERE ( cate_class='8' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `cate_name` FROM `tt_category` WHERE ( cate_class='15' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tt_secondgoods` WHERE ( secondgoods_tradetype='1' ) ORDER BY secondgoods_postdate DESC LIMIT 0,10   [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tt_secondgoods` WHERE ( secondgoods_tradetype='1' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `cate_name` FROM `tt_category` WHERE ( cate_class='17' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `cate_name` FROM `tt_category` WHERE ( cate_class='16' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `cate_name` FROM `tt_category` WHERE ( cate_class='9' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `cate_name` FROM `tt_category` WHERE ( cate_class='13' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `cate_name` FROM `tt_category` WHERE ( cate_class='15' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tt_category` WHERE ( cate_pid <>'0' )  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000188s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000246s ]
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 180 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 180 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 180 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 180 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 187 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 194 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 201 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 208 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 215 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 215 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 222 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 180 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 180 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 180 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 180 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 187 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 194 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 201 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 208 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 215 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 215 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 222 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 180 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 180 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 180 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 180 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 187 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 194 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 201 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 208 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 215 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 215 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 222 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 180 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 180 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 180 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 180 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 187 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 194 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 201 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 208 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 215 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 215 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 222 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 180 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 180 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 180 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 180 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 187 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 194 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 201 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 208 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 215 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 215 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 222 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 180 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 180 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 180 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 180 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 187 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 194 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 201 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 208 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 215 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 215 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 222 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 180 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 180 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 180 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 180 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 187 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 194 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 201 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 208 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 215 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 215 行.
+NOTIC: [8] Use of undefined constant cate_class - assumed 'cate_class' E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 222 行.
+NOTIC: [8] Undefined index: secondgoods_id E:\xampp\htdocs\hometownMarket\Application\Runtime\Cache\Admin\e108ecdbfd65ee1d6bf36aaa1a637131.php 第 311 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030514s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030571s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000596s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000646s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000819s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000878s ]
+
+[ 2015-07-13T22:21:40+08:00 ] ::1 /hometownMarket/index.php/Admin/User/notChecked.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000465s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000515s ]
+SQL: SHOW COLUMNS FROM `tt_members` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tt_members` WHERE ( members_visitset='1' ) ORDER BY members_joindate DESC LIMIT 0,10   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tt_members` WHERE ( members_visitset='1' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000144s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009857s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009916s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000443s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000488s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000926s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000984s ]
+
+[ 2015-07-13T22:22:17+08:00 ] ::1 /hometownMarket/index.php/Admin/User/setVisitset.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000640s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000771s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000841s ]
+
+[ 2015-07-13T22:22:24+08:00 ] ::1 /hometownMarket/index.php/Admin/User/setVisitset.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000523s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000666s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000746s ]
+
+[ 2015-07-13T22:22:25+08:00 ] ::1 /hometownMarket/index.php/Admin/User/setVisitset.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000509s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000534s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000604s ]
+
+[ 2015-07-13T22:22:28+08:00 ] ::1 /hometownMarket/index.php/Admin/User/setVisitset.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000809s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000782s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000878s ]
+
+[ 2015-07-13T22:22:31+08:00 ] ::1 /hometownMarket/index.php/Admin/User/setVisitset.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000578s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000730s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000814s ]
+
+[ 2015-07-13T22:27:20+08:00 ] ::1 /hometownMarket/index.php/Admin/User/notChecked.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000438s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000677s ]
+SQL: SHOW COLUMNS FROM `tt_members` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `tt_members` WHERE ( members_visitset='1' ) ORDER BY members_joindate DESC LIMIT 0,10   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tt_members` WHERE ( members_visitset='1' ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010402s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010460s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000443s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000486s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000818s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000884s ]
+
+[ 2015-07-13T22:27:22+08:00 ] ::1 /hometownMarket/index.php/Admin/User/setVisitset.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000426s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000603s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000655s ]
+
+[ 2015-07-13T22:27:25+08:00 ] ::1 /hometownMarket/index.php/Admin/User/setVisitset.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000560s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000656s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000735s ]
+
+[ 2015-07-13T22:27:27+08:00 ] ::1 /hometownMarket/index.php/Admin/User/setVisitset.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000714s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000822s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000925s ]
+
+[ 2015-07-13T22:27:47+08:00 ] ::1 /hometownMarket/index.php/Admin/User/notChecked.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000513s ]
+SQL: SHOW COLUMNS FROM `tt_members` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tt_members` WHERE ( members_visitset='1' ) ORDER BY members_joindate DESC LIMIT 0,10   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tt_members` WHERE ( members_visitset='1' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000145s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010969s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011028s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000353s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000395s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000621s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000706s ]
+
+[ 2015-07-13T22:27:47+08:00 ] ::1 /hometownMarket/index.php/Admin/User/notChecked.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000503s ]
+SQL: SHOW COLUMNS FROM `tt_members` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `tt_members` WHERE ( members_visitset='1' ) ORDER BY members_joindate DESC LIMIT 0,10   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tt_members` WHERE ( members_visitset='1' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000157s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010837s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010908s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000248s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000292s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000545s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000612s ]
+
+[ 2015-07-13T22:27:49+08:00 ] ::1 /hometownMarket/index.php/Admin/User/setVisitset.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000699s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001080s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001188s ]
+
+[ 2015-07-13T22:27:51+08:00 ] ::1 /hometownMarket/index.php/Admin/User/setVisitset.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000542s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000548s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000615s ]
+
+[ 2015-07-13T22:27:53+08:00 ] ::1 /hometownMarket/index.php/Admin/User/setVisitset.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000542s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000609s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000678s ]
+
+[ 2015-07-13T22:27:55+08:00 ] ::1 /hometownMarket/index.php/Admin/User/setVisitset.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000426s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000644s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000726s ]
+
+[ 2015-07-13T22:27:56+08:00 ] ::1 /hometownMarket/index.php/Admin/User/setVisitset.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000555s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000593s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000657s ]
+
+[ 2015-07-13T22:27:58+08:00 ] ::1 /hometownMarket/index.php/Admin/User/setVisitset.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000497s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000743s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000814s ]
+
+[ 2015-07-13T22:28:11+08:00 ] ::1 /hometownMarket/index.php/Admin/User/notChecked.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000514s ]
+SQL: SHOW COLUMNS FROM `tt_members` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tt_members` WHERE ( members_visitset='1' ) ORDER BY members_joindate DESC LIMIT 0,10   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tt_members` WHERE ( members_visitset='1' ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000148s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012939s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000365s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000408s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000659s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000728s ]
+
+[ 2015-07-13T22:28:12+08:00 ] ::1 /hometownMarket/index.php/Admin/User/setVisitset.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000678s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000544s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000627s ]
+
+[ 2015-07-13T22:28:13+08:00 ] ::1 /hometownMarket/index.php/Admin/User/setVisitset.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000517s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000628s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000714s ]
+
+[ 2015-07-13T22:28:17+08:00 ] ::1 /hometownMarket/index.php/Admin/User/setVisitset.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000492s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000670s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000746s ]
+
+[ 2015-07-13T22:29:18+08:00 ] ::1 /hometownMarket/index.php/Admin/User/notChecked.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000353s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000512s ]
+SQL: SHOW COLUMNS FROM `tt_members` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `tt_members` WHERE ( members_visitset='1' ) ORDER BY members_joindate DESC LIMIT 0,10   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tt_members` WHERE ( members_visitset='1' ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011966s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012043s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000244s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000496s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000561s ]
+
+[ 2015-07-13T22:30:15+08:00 ] ::1 /hometownMarket/index.php/Admin/User/setVisitset.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000422s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000853s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000939s ]
+SQL: SHOW COLUMNS FROM `tt_members` [ RunTime:0.0044s ]
+SQL: UPDATE `tt_members` SET `members_visitset`='2' WHERE ( members_id='31' ) [ RunTime:0.0047s ]
+
+[ 2015-07-13T22:30:19+08:00 ] ::1 /hometownMarket/index.php/Admin/User/notChecked.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000354s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000447s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000515s ]
+SQL: SHOW COLUMNS FROM `tt_members` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tt_members` WHERE ( members_visitset='1' ) ORDER BY members_joindate DESC LIMIT 0,10   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tt_members` WHERE ( members_visitset='1' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000148s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011214s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011286s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000390s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001132s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001307s ]
+
+[ 2015-07-13T22:30:24+08:00 ] ::1 /hometownMarket/index.php/Admin/User/NotChecked.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000414s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000756s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000816s ]
+SQL: SHOW COLUMNS FROM `tt_members` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `tt_members` WHERE ( members_visitset='1' ) ORDER BY members_joindate DESC LIMIT 0,10   [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tt_members` WHERE ( members_visitset='1' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010011s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010072s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000440s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000483s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000797s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000863s ]
+
+[ 2015-07-13T22:30:34+08:00 ] ::1 /hometownMarket/index.php/Admin/User/failedChecked.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000529s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000595s ]
+SQL: SHOW COLUMNS FROM `tt_members` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `tt_members` WHERE ( members_visitset='2' ) ORDER BY members_joindate DESC LIMIT 0,10   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tt_members` WHERE ( members_visitset='2' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000145s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009773s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009831s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000398s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000440s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000777s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000843s ]
+
+[ 2015-07-13T22:30:43+08:00 ] ::1 /hometownMarket/index.php/Admin/User/checked.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001202s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000963s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001042s ]
+SQL: SHOW COLUMNS FROM `tt_members` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `tt_members` WHERE ( members_visitset='0' ) ORDER BY members_joindate DESC LIMIT 0,10   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tt_members` WHERE ( members_visitset='0' ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000115s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000180s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014662s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014756s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000619s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000694s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001167s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001259s ]
+
+[ 2015-07-13T22:30:45+08:00 ] ::1 /hometownMarket/index.php/Admin/User/NotChecked.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000351s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000502s ]
+SQL: SHOW COLUMNS FROM `tt_members` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tt_members` WHERE ( members_visitset='1' ) ORDER BY members_joindate DESC LIMIT 0,10   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tt_members` WHERE ( members_visitset='1' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000156s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011353s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011411s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000428s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000474s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000796s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000862s ]
+
+[ 2015-07-13T22:30:48+08:00 ] ::1 /hometownMarket/index.php/Admin/User/failedChecked.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000372s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000504s ]
+SQL: SHOW COLUMNS FROM `tt_members` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tt_members` WHERE ( members_visitset='2' ) ORDER BY members_joindate DESC LIMIT 0,10   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tt_members` WHERE ( members_visitset='2' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000152s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010822s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010882s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000397s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000443s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000817s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000885s ]
+
+[ 2015-07-13T22:30:52+08:00 ] ::1 /hometownMarket/index.php/Admin/User/setVisitset.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000704s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000785s ]
+SQL: SHOW COLUMNS FROM `tt_members` [ RunTime:0.0046s ]
+SQL: UPDATE `tt_members` SET `members_visitset`='2' WHERE ( members_id='31' ) [ RunTime:0.0003s ]
+
+[ 2015-07-13T22:30:55+08:00 ] ::1 /hometownMarket/index.php/Admin/User/failedChecked.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000434s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000605s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000674s ]
+SQL: SHOW COLUMNS FROM `tt_members` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `tt_members` WHERE ( members_visitset='2' ) ORDER BY members_joindate DESC LIMIT 0,10   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tt_members` WHERE ( members_visitset='2' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000153s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000240s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012408s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012486s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000447s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000538s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001355s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001448s ]
+
+[ 2015-07-13T22:30:58+08:00 ] ::1 /hometownMarket/index.php/Admin/User/failedChecked.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000740s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000898s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `tt_members` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `tt_members` WHERE ( members_visitset='2' ) ORDER BY members_joindate DESC LIMIT 0,10   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tt_members` WHERE ( members_visitset='2' ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000149s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010575s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010645s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000488s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000768s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000833s ]
+
+[ 2015-07-13T22:31:03+08:00 ] ::1 /hometownMarket/index.php/Admin/User/NotChecked.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000442s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000609s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000679s ]
+SQL: SHOW COLUMNS FROM `tt_members` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `tt_members` WHERE ( members_visitset='1' ) ORDER BY members_joindate DESC LIMIT 0,10   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tt_members` WHERE ( members_visitset='1' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000149s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010062s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000401s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000445s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000735s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000804s ]
+
+[ 2015-07-13T22:31:08+08:00 ] ::1 /hometownMarket/index.php/Admin/User/failedChecked.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000362s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000536s ]
+SQL: SHOW COLUMNS FROM `tt_members` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `tt_members` WHERE ( members_visitset='2' ) ORDER BY members_joindate DESC LIMIT 0,10   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tt_members` WHERE ( members_visitset='2' ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000155s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010426s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010483s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000419s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000463s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000782s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000849s ]
+
+[ 2015-07-13T22:31:11+08:00 ] ::1 /hometownMarket/index.php/Admin/User/setVisitset.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000566s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000726s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000802s ]
+SQL: SHOW COLUMNS FROM `tt_members` [ RunTime:0.0039s ]
+SQL: UPDATE `tt_members` SET `members_visitset`='1' WHERE ( members_id='31' ) [ RunTime:0.0004s ]
+
+[ 2015-07-13T22:31:15+08:00 ] ::1 /hometownMarket/index.php/Admin/User/failedChecked.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000510s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000569s ]
+SQL: SHOW COLUMNS FROM `tt_members` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tt_members` WHERE ( members_visitset='2' ) ORDER BY members_joindate DESC LIMIT 0,10   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tt_members` WHERE ( members_visitset='2' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000139s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009460s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009523s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000457s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000725s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000786s ]
+
+[ 2015-07-13T22:31:20+08:00 ] ::1 /hometownMarket/index.php/Admin/User/NotChecked.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000427s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000908s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000995s ]
+SQL: SHOW COLUMNS FROM `tt_members` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `tt_members` WHERE ( members_visitset='1' ) ORDER BY members_joindate DESC LIMIT 0,10   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tt_members` WHERE ( members_visitset='1' ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000163s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010608s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010693s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000559s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000680s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000784s ]
+
+[ 2015-07-13T22:31:46+08:00 ] ::1 /hometownMarket/index.php/Admin/User/setVisitset.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000445s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000808s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000902s ]
+SQL: SHOW COLUMNS FROM `tt_members` [ RunTime:0.0046s ]
+SQL: UPDATE `tt_members` SET `members_visitset`='2' WHERE ( members_id='31' ) [ RunTime:0.0005s ]
+
+[ 2015-07-13T22:31:54+08:00 ] ::1 /hometownMarket/index.php/Admin/User/NotChecked.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000355s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000497s ]
+SQL: SHOW COLUMNS FROM `tt_members` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `tt_members` WHERE ( members_visitset='1' ) ORDER BY members_joindate DESC LIMIT 0,10   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tt_members` WHERE ( members_visitset='1' ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010270s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010331s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000250s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000292s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000566s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000630s ]
+
+[ 2015-07-13T22:32:02+08:00 ] ::1 /hometownMarket/index.php/Admin/User/NotChecked.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000457s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000507s ]
+SQL: SHOW COLUMNS FROM `tt_members` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tt_members` WHERE ( members_visitset='1' ) ORDER BY members_joindate DESC LIMIT 0,10   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tt_members` WHERE ( members_visitset='1' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000179s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010576s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010634s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000234s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000277s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000496s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000547s ]
+
+[ 2015-07-13T22:32:06+08:00 ] ::1 /hometownMarket/index.php/Admin/User/failedChecked.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000364s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000504s ]
+SQL: SHOW COLUMNS FROM `tt_members` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `tt_members` WHERE ( members_visitset='2' ) ORDER BY members_joindate DESC LIMIT 0,10   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tt_members` WHERE ( members_visitset='2' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000148s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010824s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010898s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000271s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000519s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000568s ]
+
+[ 2015-07-13T22:32:10+08:00 ] ::1 /hometownMarket/index.php/Admin/User/setVisitset.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000356s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000594s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000662s ]
+SQL: SHOW COLUMNS FROM `tt_members` [ RunTime:0.0053s ]
+SQL: UPDATE `tt_members` SET `members_visitset`='1' WHERE ( members_id='31' ) [ RunTime:0.0004s ]
+
+[ 2015-07-13T22:32:12+08:00 ] ::1 /hometownMarket/index.php/Admin/User/failedChecked.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000501s ]
+SQL: SHOW COLUMNS FROM `tt_members` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tt_members` WHERE ( members_visitset='2' ) ORDER BY members_joindate DESC LIMIT 0,10   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tt_members` WHERE ( members_visitset='2' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000143s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010072s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010134s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000250s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000293s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000701s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000780s ]
+
+[ 2015-07-13T22:32:14+08:00 ] ::1 /hometownMarket/index.php/Admin/User/NotChecked.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000375s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000520s ]
+SQL: SHOW COLUMNS FROM `tt_members` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tt_members` WHERE ( members_visitset='1' ) ORDER BY members_joindate DESC LIMIT 0,10   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tt_members` WHERE ( members_visitset='1' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010678s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010738s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000412s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000455s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000828s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000903s ]
+
+[ 2015-07-13T22:32:19+08:00 ] ::1 /hometownMarket/index.php/Admin/User/setVisitset.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000423s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000447s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000495s ]
+SQL: SHOW COLUMNS FROM `tt_members` [ RunTime:0.0046s ]
+SQL: UPDATE `tt_members` SET `members_visitset`='2' WHERE ( members_id='31' ) [ RunTime:0.0004s ]
+
+[ 2015-07-13T22:32:33+08:00 ] ::1 /hometownMarket/index.php/Admin/User/setVisitset.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000591s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000829s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000915s ]
+SQL: SHOW COLUMNS FROM `tt_members` [ RunTime:0.0040s ]
+SQL: UPDATE `tt_members` SET `members_visitset`='1' WHERE ( members_id='31' ) [ RunTime:0.0004s ]
+
+[ 2015-07-13T22:32:36+08:00 ] ::1 /hometownMarket/index.php/Admin/User/setVisitset.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000565s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000622s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000685s ]
+SQL: SHOW COLUMNS FROM `tt_members` [ RunTime:0.0049s ]
+SQL: UPDATE `tt_members` SET `members_visitset`='3' WHERE ( members_id='31' ) [ RunTime:0.0005s ]
+
+[ 2015-07-13T22:32:39+08:00 ] ::1 /hometownMarket/index.php/Admin/User/NotChecked.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000499s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000557s ]
+SQL: SHOW COLUMNS FROM `tt_members` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tt_members` WHERE ( members_visitset='1' ) ORDER BY members_joindate DESC LIMIT 0,10   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tt_members` WHERE ( members_visitset='1' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000150s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009987s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010053s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000488s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000765s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000821s ]
+
+[ 2015-07-13T22:32:42+08:00 ] ::1 /hometownMarket/index.php/Admin/User/ForbiddenUser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000450s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000502s ]
+SQL: SHOW COLUMNS FROM `tt_members` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `tt_members` WHERE ( members_visitset='3' ) ORDER BY members_joindate DESC LIMIT 0,10   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tt_members` WHERE ( members_visitset='3' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000148s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010622s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010680s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000437s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000480s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000655s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000700s ]
+
+[ 2015-07-13T22:32:45+08:00 ] ::1 /hometownMarket/index.php/Admin/User/checked.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000489s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000542s ]
+SQL: SHOW COLUMNS FROM `tt_members` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `tt_members` WHERE ( members_visitset='0' ) ORDER BY members_joindate DESC LIMIT 0,10   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tt_members` WHERE ( members_visitset='0' ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000150s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010649s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010717s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000526s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000572s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000865s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000940s ]
+
+[ 2015-07-13T22:38:05+08:00 ] ::1 /hometownMarket/index.php/Admin/User/checked.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000446s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000747s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000814s ]
+SQL: SHOW COLUMNS FROM `tt_members` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tt_members` WHERE ( members_visitset='0' ) ORDER BY members_joindate DESC LIMIT 0,10   [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tt_members` WHERE ( members_visitset='0' ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000147s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010571s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010636s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000415s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000649s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000709s ]
+
+[ 2015-07-13T22:38:21+08:00 ] ::1 /hometownMarket/index.php/Admin/User/checked.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000355s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000450s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000499s ]
+SQL: SHOW COLUMNS FROM `tt_members` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `tt_members` WHERE ( members_visitset='0' ) ORDER BY members_joindate DESC LIMIT 0,10   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tt_members` WHERE ( members_visitset='0' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000179s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010050s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010115s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000289s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000335s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000549s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000614s ]
+
+[ 2015-07-13T22:38:29+08:00 ] ::1 /hometownMarket/index.php/Admin/User/checked.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000490s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000699s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000763s ]
+SQL: SHOW COLUMNS FROM `tt_members` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `tt_members` WHERE ( members_visitset='0' ) ORDER BY members_joindate DESC LIMIT 0,10   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tt_members` WHERE ( members_visitset='0' ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000152s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010907s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010983s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000478s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000870s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000950s ]
+
+[ 2015-07-13T22:38:32+08:00 ] ::1 /hometownMarket/index.php/Admin/User/ForbiddenUser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000458s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000510s ]
+SQL: SHOW COLUMNS FROM `tt_members` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `tt_members` WHERE ( members_visitset='3' ) ORDER BY members_joindate DESC LIMIT 0,10   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tt_members` WHERE ( members_visitset='3' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000149s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010553s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010613s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000443s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000489s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000711s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000758s ]
+
+[ 2015-07-13T22:38:35+08:00 ] ::1 /hometownMarket/index.php/Admin/User/setVisitset.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000418s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000529s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000599s ]
+SQL: SHOW COLUMNS FROM `tt_members` [ RunTime:0.0047s ]
+SQL: UPDATE `tt_members` SET `members_visitset`='1' WHERE ( members_id='31' ) [ RunTime:0.0004s ]
+
+[ 2015-07-13T22:38:36+08:00 ] ::1 /hometownMarket/index.php/Admin/User/ForbiddenUser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000354s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000497s ]
+SQL: SHOW COLUMNS FROM `tt_members` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tt_members` WHERE ( members_visitset='3' ) ORDER BY members_joindate DESC LIMIT 0,10   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tt_members` WHERE ( members_visitset='3' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000145s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011137s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011206s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000543s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000595s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000659s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000705s ]
+
+[ 2015-07-13T22:38:38+08:00 ] ::1 /hometownMarket/index.php/Admin/User/checked.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000642s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000789s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000889s ]
+SQL: SHOW COLUMNS FROM `tt_members` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `tt_members` WHERE ( members_visitset='0' ) ORDER BY members_joindate DESC LIMIT 0,10   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tt_members` WHERE ( members_visitset='0' ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000150s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000239s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015113s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015214s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000381s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000456s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000740s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000828s ]
+
+[ 2015-07-13T22:38:42+08:00 ] ::1 /hometownMarket/index.php/Admin/User/NotChecked.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000573s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000736s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000830s ]
+SQL: SHOW COLUMNS FROM `tt_members` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `tt_members` WHERE ( members_visitset='1' ) ORDER BY members_joindate DESC LIMIT 0,10   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tt_members` WHERE ( members_visitset='1' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000154s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000239s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012899s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012997s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000464s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000552s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000813s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000905s ]
+
+[ 2015-07-13T22:47:07+08:00 ] ::1 /hometownMarket/index.php/Admin/User/NotChecked/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000413s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000900s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000962s ]
+SQL: SHOW COLUMNS FROM `tt_members` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `tt_members` WHERE ( members_visitset='1' ) ORDER BY members_joindate DESC LIMIT 10,10   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tt_members` WHERE ( members_visitset='1' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000150s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010843s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010900s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000353s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000397s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000587s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000630s ]
+
+[ 2015-07-13T22:47:09+08:00 ] ::1 /hometownMarket/index.php/Admin/User/NotChecked/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000381s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000579s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000658s ]
+SQL: SHOW COLUMNS FROM `tt_members` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tt_members` WHERE ( members_visitset='1' ) ORDER BY members_joindate DESC LIMIT 0,10   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tt_members` WHERE ( members_visitset='1' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000149s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010263s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010337s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000240s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000487s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000542s ]
+

@@ -1,0 +1,48 @@
+[ 2015-06-30T11:33:49+08:00 ] ::1 /hometownMarket/Uploads/2015-06-04/556fb0ee6e1c3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000614s ]
+ERR: 无法加载模块:Uploads
+
+[ 2015-06-30T11:36:39+08:00 ] ::1 /hometownMarket/Uploads/2015-06-04/556fb0ee6e1c3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000619s ]
+ERR: 无法加载模块:Uploads
+
+[ 2015-06-30T11:36:39+08:00 ] ::1 /hometownMarket/Uploads/2015-06-04/556fb0ee6e1c3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000376s ]
+ERR: 无法加载模块:Uploads
+
+[ 2015-06-30T11:37:00+08:00 ] ::1 /hometownMarket/Uploads/2015-06-04/556fb0ee6e1c3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000739s ]
+ERR: 无法加载模块:Uploads
+
+[ 2015-06-30T11:37:28+08:00 ] ::1 /hometownMarket/Public/icons/responsivenav.ttf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000880s ]
+ERR: 无法加载模块:Public
+
+[ 2015-06-30T11:37:28+08:00 ] ::1 /hometownMarket/Public/icons/responsivenav.woff
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000608s ]
+ERR: 无法加载模块:Public
+
+[ 2015-06-30T11:37:47+08:00 ] ::1 /hometownMarket/Uploads/2015-06-04/556fb0ee6e1c3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000353s ]
+ERR: 无法加载模块:Uploads
+
+[ 2015-06-30T11:38:26+08:00 ] ::1 /hometownMarket/Uploads/2015-06-04/556fb0ee6e1c3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+ERR: 无法加载模块:Uploads
+

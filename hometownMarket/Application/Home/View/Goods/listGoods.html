@@ -1,0 +1,318 @@
+<extend name="Public:base" />
+<block name="leftcolumn">
+		<div class="col-lg-9 col-md-9 col-sm-12">
+	         <div class="panel panel-default">
+	         
+					  <div class="panel-heading">
+					    <h2 class="panel-title">查看商品信息</h2>
+					  </div>
+				  <div class="panel-body">
+				     <div class="form-group">
+                            <label class="" for="goodsname"><b>商品名：</b></label>
+                            <label class="" for="goodsname"><h3>{$goodsDesc.secondgoods_name}</h3></label>
+                     </div>
+                     <if condition="$picture[count] neq 0">
+                     <div class="form-group">
+                            <label class="" for="Pic"><b>商品图片：</b></label>
+                            <div id="myCarousel" class="carousel slide bottom-margin">
+			     			<!-- 轮播（Carousel）指标 -->
+			               <ol class="carousel-indicators">
+			               
+			                  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+			               	<foreach name="count" item="count">
+			                  <li data-target="#myCarousel" data-slide-to="{$count}"></li>
+			                  </foreach>
+			               </ol>   
+					     	<!-- 轮播（Carousel）项目 -->
+					        <div class="carousel-inner">
+					            <div class="item active">
+					               <img src="__IMG__/temp_photos.gif"  >
+					            </div>
+					          <foreach name="picture.data" item="ul">
+					            <div class="item">
+					               <img src="__ROOT__/Uploads/{$ul.seconduploads_location}{$ul.seconduploads_bewrite}" >
+					            </div>
+					           </foreach>
+					      	</div>
+					     		<!-- 轮播（Carousel）导航 -->
+					           <a class="carousel-control left" href="#myCarousel" 
+					              data-slide="prev">&lsaquo;</a>
+					           <a class="carousel-control right" href="#myCarousel" 
+					              data-slide="next">&rsaquo;</a>
+			    	</div>
+                     </div>
+                     </if>
+                     <div class="form-group">
+                     
+                     		<label for="button">
+                     	<if condition="$_SESSION['userid'] eq null">
+                     		<button class="btn btn-default tooltip-hide" data-toggle="tooltip" 
+                            data-placement="left" title="请登录后再点击">联系发布者</button>
+                            <button class="btn btn-default tooltip-hide" data-toggle="tooltip" 
+                            data-placement="right" title="请登录后再点击">下订单</button>
+                         <else />
+                         	<button data-toggle="modal" data-target="#orderSendModal" type="button" class="btn btn-default " >联系发布者</button>
+                         	<if condition="$goodsDesc[info] eq 1">
+                            	<button data-toggle="tooltip" data-placement="right" title="商品已过期或成功交易" type="button"  class="btn btn-default tooltip-hide">下订单</button>
+                            <else />
+                            	<button data-toggle="modal" data-target="#orderModal" type="button" class="btn btn-default">下订单</button>
+                            </if>
+                         </if>
+                            </label>
+                         
+                     </div>
+                     <!-- 发送消息弹出框 -->
+					            <div class="modal fade" id="orderSendModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+					              <div class="modal-dialog">
+					                <div class="modal-content">
+					                  <div class="modal-header">
+					                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					                    <h4 class="modal-title" id="myModalLabel">发送消息</h4>
+					                  </div>
+					                  <form id="Message_form" class="modal-body" action="{:U('Home/Message/sendMessage')}" method="post">
+					                 	<div id="message_notice"></div>
+					                    <div class="form-group">
+					                            <label for="title">消息标题</label>
+					                            <input name="message_title" type="text" class="form-control" id="message_title" placeholder
+					                              ="请输入您的标题" >
+					                     </div>
+					                     <div class="form-group">
+					                          <label for="receiver">消息接收方</label>
+					                          <input name="message_to_username" type="text" class="form-control" id="message_to_username" value="{$goodsDesc.secondgoods_username}" >
+					                     </div>
+					                     <div class="form-group">
+					                          <label for="password">消息发送方</label>
+					                          <input name="message_from_username" type="text" class="form-control " disabled id="message_from_userid" value="{$_SESSION['username']}" >
+					                     </div>
+					                     <div class="form-group">
+                          					  <label for="desc">消息内容</label>
+                            				  <textarea id="message_msg" name="message_msg" class="form-control" rows="5" ></textarea>
+                            			</div>
+					                  </form>
+					                  <div class="modal-footer">
+					                    <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+					                    <button type="button" id="sendbtn" class="btn btn-primary" >发送</button>
+					                  </div>
+					                </div>
+					              </div>
+					            </div>
+            					<!--弹出框结束-->
+            					<!-- 订单按钮 -->
+            					<div class="modal fade" id="orderModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+					              <div class="modal-dialog">
+					                <div class="modal-content">
+					                  <div class="modal-header">
+					                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					                    <h4 class="modal-title" id="myModalLabel">感兴趣</h4>
+					                  </div>
+					                  <form id="Message_form1" class="modal-body" action="{:U('Home/Message/sendOrder',array('secondgoods_id'=>$goodsDesc['secondgoods_id']))}" method="post">
+					                 	<div id="message_ordernotice"></div>
+					                    <div class="form-group">
+					                            <label for="title">确定感兴趣并下订单？</label>
+					                            <input name="message_title" type="hidden" class="form-control" id="message_title" value="商品订购（或感兴趣）:{$goodsDesc.secondgoods_name}" >
+					                     </div>
+					                          <input name="message_to_username" type="hidden" class="form-control" id="message_to_username" value="{$_SESSION['username']}" >
+					                     	  <input name="message_to_userid" type="hidden" class="form-control" id="message_to_userid" value="{$_SESSION['userid']}" >
+					                     	  <input id="message_msg" type="hidden" name="message_msg" class="form-control" value="该信息由系统自动发送给您!用户：{$_SESSION['username']} 订购或对您发布的商品信息表示感兴趣，您可以通过短信方式联系他
+													[浏览商品]" >
+                            			
+					                  </form>
+					                  <div class="modal-footer">
+					                    <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+					                    <button type="button" id="orderbtn" class="btn btn-primary" >确认</button>
+					                  </div>
+					                </div>
+					              </div>
+					            </div>
+					            <!-- 订单按钮结束 -->
+                     <div class="form-group">
+                            <label class="" for="goodsname"><b>感兴趣：</b></label>
+                            <label class="" for="goodsname">
+                            <h3>
+                            {$goodsDesc.secondgoods_orders}人
+                            </h3>
+                            </label>
+                     </div>
+                     <div class="form-group">
+                            <label class="" for="goodsname"><b>商品发布者:</b></label>
+                            <label class="" for="goodsname"><h3>{$goodsDesc.secondgoods_username}</h3></label>
+                     </div>
+                     <div class="form-group">
+                            <label for="goodsclass">商品分类：</label>
+                             <label for="goodsclass"><h3>{$goodsDesc.secondgoods_classname}</h3></label>
+                            
+                     </div>
+                     <div class="form-group">
+                            <label for="goodstradetype">类型：</label>
+                            <if condition="$goodsDesc['secondgoods_tradetype'] eq 0">
+                             <label for="goodstradetype"><h3>出售</h3></label>
+                             <else />
+                             <label for="goodstradetype"><h3>购买</h3></label>
+                            </if>
+                     </div>
+                     <div class="form-group">
+                           <label for="hownew">新旧程度：</label>
+                           	<if condition="$goodsDesc['secondgoods_hownew'] neq 0">
+                           		<label for="goodshownew"><h3>{$goodsDesc.secondgoods_hownew}成新</h3></label>
+						      <else />
+						     	<label for="goodshownew"><h3>比较旧了</h3></label>
+						     </if>
+						         
+                     </div>
+                     <div class="form-group">
+                     		<label for="price">每件价格：</label>
+                     		<label for="price"><h3>{$goodsDesc.secondgoods_price}元</h3></label>
+                     </div>
+                     <div class="form-group">
+                           <label for="delivertype">交易方式：</label>
+						    <label for="delibertype"><h3>
+						    <if condition="$goodsDesc['secondgoods_delivertype'] eq 0">
+						    	当面交易
+						    <if condition="$goodsDesc['secondgoods_delivertype'] eq 1">
+						    	邮寄对方付款
+						    </if>
+						    <else />
+						    	邮寄方付款
+						    </if>
+						    </h3>
+						    </label>
+                     </div>
+                    
+                     <div class="form-group">
+                           <label for="paidtype">付款方式：</label>
+						    <if condition="$goodsDesc['secondgoods_paidtype'] eq 0">
+						    	<label for="paidtype"><h3>现金交易</h3></label>
+						   	<if condition="$goodsDesc['secondgoods_paidtype'] eq 1">
+						    	<label for="paidtype"><h3>银行转账</h3></label>
+						    </if>
+						   	<else />
+						   		<label for="paidtype"><h3>任意方式</h3></label>
+						    </if>
+                     </div>
+                     <div class="form-group">
+                     		<label for="goodsnums">数量:</label>
+                     		<label for="goodsnums"><h3>{$goodsDesc.secondgoods_goodsnums}</h3></label>
+                     </div>
+                     <if condition="$_SESSION['userid'] eq $goodsDesc['secondgoods_usercode']">
+                      <div class="form-group">
+                           
+                            <if condition="$godosDesc['secondgoods_efficiency'] eq 2">
+                            <label for="efficiency">交易状态</label>
+                           :商品已过期
+                           </if>
+                           <if condition="$godosDesc['secondgoods_efficiency'] eq 0">
+                           <label for="efficiency">交易状态：设为成功交易后，用户将不能下单</label>
+						      <select id="secondgoods_efficiency" name="secondgoods_efficiency" class="form-control" onchange="func()">
+						      <option></option>
+						       <option value=0 >正常交易</option>
+						         <option value=1  >成功交易</option>
+						        </select>
+						   </if> 
+                     </div>
+                     <else />
+                     	<div class="form-group">
+                            <label for="efficiency">交易状态:</label>
+                            <label for="efficiency"><h3>{$goodsDesc['status']}</h3></label>
+                     </div>
+                     </if>
+                     <div class="form-group">
+                           <label for="secondgoods_pastdate">交易有效时间：</label>
+                           	<label for ="secondgoods_pastdate">
+                           		<h3>
+                           	{$goodsDesc['secondgoods_postdate']|date="Y-m-d H:i:s",###}&nbsp至&nbsp{$goodsDesc['secondgoods_pastdate']|date="Y-m-d H:i:s",###}
+                           		</h3>
+                           	</label>
+					 </div>
+                     <div class="form-group">
+                          <label for="notice">注意事项</label>
+                         	 同一条信息（内容）的商品，3天才能重发一次，否则禁用帐号一个星期！
+							多件商品请尽量发在同一帖子内，如发现有故意将每件商品独立发布者，禁用帐号一个星期，屡犯者作删号处理！
+                     </div>
+                     <div class="form-group">
+                          <label for="desc">商品描述</label>
+                            <textarea id="secondgoods_bewrite" disabled name="secondgoods_bewrite" class="form-control" rows="5"  >{$goodsDesc['secondgoods_bewrite']}</textarea>
+                           
+                     </div>
+                    
+                      
+			
+				  </div>
+			</div>
+		</div>
+	    
+</block>
+
+<block name="script">
+<script>
+      var navigation = responsiveNav(".nav-collapse", {
+        animate: true,                    // Boolean: Use CSS3 transitions, true or false
+        transition: 284,                  // Integer: Speed of the transition, in milliseconds
+        label: "Menu",                    // String: Label for the navigation toggle
+        insert: "after",                  // String: Insert the toggle before or after the navigation
+        customToggle: "",                 // Selector: Specify the ID of a custom toggle
+        closeOnNavClick: false,           // Boolean: Close the navigation when one of the links are clicked
+        openPos: "relative",              // String: Position of the opened nav, relative or static
+        navClass: "nav-collapse",         // String: Default CSS class. If changed, you need to edit the CSS too!
+        navActiveClass: "js-nav-active",  // String: Class that is added to <html> element when nav is active
+        jsClass: "js",                    // String: 'JS enabled' class which is added to <html> element
+        init: function(){},               // Function: Init callback
+        open: function(){},               // Function: Open callback
+        close: function(){}               // Function: Close callback
+      });
+      
+      
+    $(function(){
+    	
+    $('.tooltip-hide').tooltip('hide');
+	
+	$('#sendbtn').click(function(){
+		var action=$('#Message_form').attr('action');
+		var Formattr=$('#Message_form').serialize();
+		console.log(action);
+		$.post(action,Formattr,function(data){
+			$('#message_notice').html(data.info);
+			console.log(data.info);
+			if(data.info=="发送成功!")
+				setTimeout("window.location.href=\"{:U('Home/Index/index')}\"",1000);
+			
+		});
+	})
+	$('#orderbtn').click(function(){
+		var action=$('#Message_form1').attr('action');
+		var Formattr=$('#Message_form1').serialize();
+		console.log(Formattr);
+		$.post(action,Formattr,function(data){
+			$('#message_ordernotice').html(data.info);
+			console.log(data.info);
+				setTimeout("window.location.reload()",1000);
+			
+		});
+	})
+	$('#deleteGoodsbtn').click(function(){
+		var action="{:U('Home/Goods/deleteGoods',array('secondgoods_id'=>$ul['secondgoods_id']))}";
+		$.post(action,function(data){
+			$('#message_deleteGoodsnotice').html(data.info);
+			console.log(data.info);
+				setTimeout("window.location.reload()",0);
+			
+		});
+	})
+	$("#secondgoods_efficiency").change(function(){
+		var goodsId={$goodsDesc['secondgoods_id']};
+		console.log(goodsId);
+		var checkValue=$("#secondgoods_efficiency").val(); 
+		var action="/hometownMarket/index.php/Home/Goods/setStatus/secondgoods_id/"+goodsId+"/secondgoods_efficiency/"+checkValue+".html"
+		console.log(action);
+		$.post(action,function(data){
+			
+			if(data.info='undefine')
+				alert('修改状态成功');
+			setTimeout("window.location.reload()",0);
+		})
+	});
+	
+	
+})
+	
+</script>
+</block>

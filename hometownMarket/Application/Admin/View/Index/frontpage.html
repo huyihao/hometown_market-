@@ -1,0 +1,82 @@
+<extend name="Public:base" />
+<block name="leftcolumn">
+		  	<div class="col-lg-9 col-md-9 col-sm-12">
+		  	<div class="interval"></div>
+	         <div class="panel panel-default">
+	         
+					  <div class="panel-heading">
+					    <h2 class="panel-title">所有分类聚合信息</h2>
+					  </div>
+				  <div class="panel-body">
+				    <div class="">
+			          <ul class="nav nav-tabs nav-justified" id="myTab">
+			              <li role="presentation" class="active"><a href="#sales">出售</a></li>
+			              <li role="presentation"><a href="#purchase">收购</a></li>
+			              </if>
+			          </ul>
+			        <div class="tab-content">
+			        	<div class="tab-pane active" id="sales">
+				          	<table class="table  table-hover error">
+				          		<thead>
+				          			<th>商品名称</th>
+				          			<th>板块</th>
+				          			<th>交易状态</th>
+				          			<th>发布时间</th>
+				          			<th><button id="deleteAllGoodsbtn" type="button" class="btn">删除</button></th>
+				          		</thead>
+				          		
+								<form name="checkbox_form" method="post" action="{:U('Admin/Goods/deleteAllGoods')}">
+				          		<foreach name="sale_goods_list.goods" item="ul">
+									
+									<tr>
+										<td><a href="{:U('Home/Goods/listGoods',array('secondgoods_id'=>$ul['secondgoods_id']))}">{$ul.secondgoods_name}</a></td>
+										<td><select id="secondgoods_class{$ul.secondgoods_id}" name="secondgoods_class{$ul.secondgoods_id}" class="form-control" >
+										      <option>{$ul.secondgoods_classname}</option>
+										      <foreach name="cateSelect" item="ca">
+										       <option value={$ca.cate_class} >{$ca.cate_name}</option>
+										         </foreach>
+										        </select>
+										        
+										</td>
+										<td>{$ul.secondgoods_efficiency}</td>
+										<td>{$ul.secondgoods_postdate|date="Y-m-d H:i",###}</td>
+										<td><input id="id[]" name="id[]" type="checkbox" value="{$ul.secondgoods_id}"></td>
+									</tr>
+									
+								</foreach>
+								</form>
+								<tfoot>
+										<th colspan="6">{$sale_goods_list.page}<button id="checkAll1" type="button" class="btn">全选</button><button id="delAll1" type="button" class="btn">反选</button></th>
+									</tfoot>
+				          	</table>
+			          	</div>
+			          	<div class="tab-pane" id="purchase">
+				          	<table class="table  table-hover error">
+					          		<thead>
+				          			<th>商品名称</th>
+				          			<th>板块</th>
+				          			<th>交易状态</th>
+				          			<th>发布时间</th>
+				          			<th><button id="deleteAllGoodsbtn1" type="button" class="btn">删除</button></th>
+				          		</thead>
+					          		<foreach name="purchase_goods_list.goods" item="ul">
+										<tr>
+										<td ><a href="{:U('Home/Goods/listGoods',array('secondgoods_id'=>$ul['secondgoods_id']))}">{$ul.secondgoods_name}</a></td>
+										<td>{$ul.secondgoods_classname}</td>
+										<td>{$ul.secondgoods_efficiency}</td>
+										<td>{$ul.secondgoods_postdate|date="Y-m-d H:i",###}</td>
+										<td><input id="id1[]" name="id1[]" type="checkbox" value="{$ul.secondgoods_id}"></td>
+									</tr>
+									</foreach>
+									<tfoot>
+										<th colspan="6">{$purchase_goods_list.page}<button id="checkAll" type="button" class="btn">全选</button><button id="delAll" type="button" class="btn">反选</button></th>
+									</tfoot>
+					          	</table>
+			          	</div>
+			         
+			          </div>
+			      	</div>
+				  </div>
+			</div>
+		</div>
+</block>		
